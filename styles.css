@@ -10,6 +10,21 @@ body {
     color: #252525;
 }
 
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 40px;
+}
+
+#gallery img {
+    margin: 5px;
+    border-radius: 5px;
+    max-width: 30vw;
+}
+
 header {
     text-align: center;
     text-transform: uppercase;
@@ -20,8 +35,7 @@ header {
 }
 
 footer {
-    max-width: 1200px;
-    margin: 0 auto;
     text-align: right;
     padding: 20px 50px;
+    width: 100%;
 }
